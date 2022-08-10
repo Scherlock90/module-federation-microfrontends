@@ -32,7 +32,7 @@ module.exports = {
                 //thats from remote
                 app2: "app2@https://scherlock90.github.io/module-federation-second-app/remoteEntry.js",
                 //thats from localhost
-                app3: "app3@[app3Url]/remoteEntry.js",
+                // app3: "app3@[app3Url]/remoteEntry.js",
             },
             shared: { react: { singleton: true }, "react-dom": { singleton: true } },
         }),
